@@ -1,0 +1,28 @@
+.blink_me {
+    animation: blinker 0.6s linear infinite;
+    margin-left: 140px;
+    padding:10px;
+    border-radius: 30px;
+    color: white ;
+    background-color: palevioletred;
+  }
+  
+ @keyframes blinker {
+  0% {
+    background-color: #ff0019;
+    border: 2px solid #e05d6a;
+  }
+  /* YOU CAN ADD MORE COLORS IN THE KEYFRAMES IF YOU WANT
+  50% {
+    background-color: #55d66b;
+    border: 5px solid #126620;
+  }
+  */
+  100% {
+    background-color: #7676c4;
+    border: 2px solid #c5c5e9;
+  }
+}
+p{
+    color: white;
+}

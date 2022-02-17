@@ -1,0 +1,15 @@
+<div class="container"><p>
+  The Product  <span class="p-1" style="background-color:yellow; color: #000;">{{ productName }}</span> is {{ productAvailability }}.<br>
+  Remaining Stocks - {{ getStockCount() }}  <b class="blink_me"> Hurry !</b>
+</p>
+<!-- <label>Stock</label> -->
+<form class="form-inline">
+  <input
+    name="productName"
+    type="text"
+    class="form-control"
+    placeholder="Type Your Product"
+    [(ngModel)]="productName"
+  />
+</form>
+</div>
